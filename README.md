@@ -23,9 +23,11 @@ All bottles are attached to [GitHub Releases](https://github.com/shihuan1999/ris
 - **tree** 2.1.1 - Recursive directory listing
 - **zsh** 5.9 - Z shell
 
-### Development Tools (3)
+### Development Tools (5)
 - **m4** 1.4.20 - Macro processor
 - **make** 4.4.1 - GNU build automation
+- **portable-git** 2.54.0 - Git version control (self-contained, 532MB)
+- **portable-ruby** 4.0.3 - Ruby interpreter (Homebrew internal, 64MB)
 - **python** 3.11.4 - Python interpreter with pip (13MB)
 
 ### Editors (2)
@@ -46,7 +48,7 @@ All bottles are attached to [GitHub Releases](https://github.com/shihuan1999/ris
 - **hello** 2.12.3 - GNU Hello (demo package)
 - **jq** 1.8.1 - JSON processor ⚠️ *runtime dependency issue*
 
-**Total: 26 packages**
+**Total: 28 packages**
 
 ---
 
