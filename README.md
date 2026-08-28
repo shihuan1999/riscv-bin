@@ -23,9 +23,10 @@ All bottles are attached to [GitHub Releases](https://github.com/shihuan1999/ris
 - **tree** 2.1.1 - Recursive directory listing
 - **zsh** 5.9 - Z shell
 
-### Development Tools (2)
+### Development Tools (3)
 - **m4** 1.4.20 - Macro processor
 - **make** 4.4.1 - GNU build automation
+- **python** 3.11.4 - Python interpreter with pip (13MB)
 
 ### Editors (2)
 - **nano** 8.5 - Simple text editor
@@ -45,7 +46,31 @@ All bottles are attached to [GitHub Releases](https://github.com/shihuan1999/ris
 - **hello** 2.12.3 - GNU Hello (demo package)
 - **jq** 1.8.1 - JSON processor ⚠️ *runtime dependency issue*
 
-**Total: 25 packages**
+**Total: 26 packages**
+
+---
+
+## 🐍 Python Usage
+
+After installing Python via Harmonybrew, you can use pip to install pure Python packages:
+
+```bash
+# Install Python
+brew install hbrew/riscv/python
+
+# Set up environment
+export PYTHONHOME=/data/harmonybrew/Cellar/python/3.11.4
+export PATH=/data/harmonybrew/Cellar/python/3.11.4/bin:$PATH
+
+# Install pure Python packages with pip
+python3.11 -m pip install pyyaml click jinja2 flask requests
+
+# Test installation
+python3.11 -c "import yaml; print('PyYAML works!')"
+```
+
+**Note on C-extension packages (numpy, pandas, etc.):**  
+These require compilation from source. Since no prebuilt riscv64 musllinux wheels exist on PyPI, and the device lacks a full gcc toolchain, installing packages with C extensions is currently not supported. Focus on pure Python packages for best compatibility.
 
 ---
 
