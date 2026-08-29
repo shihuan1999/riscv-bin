@@ -8,7 +8,7 @@ All bottles are attached to [GitHub Releases](https://github.com/shihuan1999/ris
 
 ## 📦 Available Packages
 
-### System Utilities (13)
+### System Utilities (15)
 - **bash** 5.3 - GNU Bourne-Again SHell
 - **busybox** 1.37.0 - Lightweight Unix utilities
 - **coreutils** 9.11 - GNU core utilities (ls, cp, mv, etc.)
@@ -18,9 +18,11 @@ All bottles are attached to [GitHub Releases](https://github.com/shihuan1999/ris
 - **gzip** 1.14 - GNU compression utility
 - **less** 704 - Terminal pager
 - **patch** 2.8 - Apply diff patches
+- **pigz** 2.8 - Parallel gzip compression (124KB)
 - **sed** 4.10 - Stream editor
 - **tar** 1.35 - Archive utility
 - **tree** 2.1.1 - Recursive directory listing
+- **xz** 5.4.5 - High-ratio LZMA compression (731KB, static)
 - **zsh** 5.9 - Z shell
 
 ### Development Tools (5)
@@ -48,7 +50,7 @@ All bottles are attached to [GitHub Releases](https://github.com/shihuan1999/ris
 - **hello** 2.12.3 - GNU Hello (demo package)
 - **jq** 1.8.1 - JSON processor ⚠️ *runtime dependency issue*
 
-**Total: 28 packages**
+**Total: 30 packages**
 
 ---
 
